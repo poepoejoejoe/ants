@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="core-init.js"></script>
+    <script src="utils.js"></script>
+    <script src="names.js"></script>
+    <script src="id.js"></script>
+    <script src="movement.js"></script>
+    <script src="core-entities.js"></script>
+    <script src="entity-movement.js"></script>
+    <script src="entities/colony.js"></script>
+    <script src="entities/food.js"></script>
+    <script src="entities/pheromone.js"></script>
+    <script src="entities/spider.js"></script>
+    <script src="entities/soldier.js"></script>
+    <script src="entities/ant.js"></script>
+    <script src="panel.js"></script>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 class="title">ANT GAME</h1>
+    <div id="click-text">
+      Click on anything in the game to inspect or control
+    </div>
+    <div class="game-panel-container">
+      <canvas id="game" width="1024" height="1024"></canvas>
+      <div class="side-panel-container">
+        <div id="ant-count"></div>
+        <div class="side-panel-header">
+          <img id="thumbnail-image">
+          <div class="attributes">
+            <div id="selected-entity-title"></div>
+            <div id="selected-entity-amount"></div>
+            <div id="selected-entity-hp"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="control-panel-container">
+    </div>
+  </body>
+</html>
